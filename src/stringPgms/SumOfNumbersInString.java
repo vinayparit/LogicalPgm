@@ -1,6 +1,6 @@
 package stringPgms;
 
-public class LenghtOfString {
+public class SumOfNumbersInString {
 
 	public static void main(String[] args) {
 		String st = "a1b2c3d";
