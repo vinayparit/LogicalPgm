@@ -17,7 +17,7 @@ public class SortArrayUsingBubbleSort {
 					a[j]=temp;
 				}
 			}
-			System.out.println(a[i]);
+			System.out.print(a[i]+" ");
 		}
 	}
 }

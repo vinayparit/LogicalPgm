@@ -9,6 +9,7 @@ public class ReverseCompleteStringSet {
 			System.out.print(s.charAt(i));
 			
 		}
+		
 		System.out.println();
 		String [] st=s.split(" ");
 		
