@@ -3,21 +3,26 @@ package general;
 public class PerfectString {
 
 	public static void main(String[] args) {
-		
-		String s="I am from bangalore";
-		String[] st=s.split("");
-//		String[] str=new String[st.length];
-		String temp =null;
-		
-		for(int i=1;i<st.length;i++)
-		{
-			temp= st[0];
-			st[i]=st[i+1];
-		
-//			System.out.print(st[i]+"");
-//			st[st.length-1]=temp;
-			System.out.print(st[i]);
+		/*Output: 
+		 * am from bangalore I 
+		 * from bangalore I am 
+		 * bangalore I am from 
+		 * I am from bangalore
+		 */
+
+		String s = "I am from bangalore";
+		String[] st = s.split(" ");
+
+		for (int i = 0; i < st.length; i++) {
+			String temp = st[0];
+
+			for (int j = 1; j < st.length; j++) {
+
+				st[j - 1] = st[j];
+				System.out.print(st[j] + " ");
+			}
+			st[st.length - 1] = temp;
+			System.out.println(st[st.length - 1] + " ");
 		}
-		
-	} 
+	}
 }
