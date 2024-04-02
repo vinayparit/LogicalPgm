@@ -7,7 +7,9 @@ public class FibonaciSeries {
 		int n = 0;
 		int m = 1;
 		int o = 0;
+		System.out.print(n+" "+m);
 		for (int i = 0; i < 10; i++) {
+			
 			o = n + m;
 			System.out.print(" " + o);
 			n = m;

@@ -10,7 +10,7 @@ public class PrimeNumberInArray {
 		{
 			int n=a[i];
 			int count=0;
-			for(int j=2;j<n/2;j++)
+			for(int j=2;j<n;j++)
 			{
 				if(n%j==0)
 				{

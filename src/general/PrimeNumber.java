@@ -11,7 +11,7 @@ public class PrimeNumber {
 			int count=0;
 			int n=i;
 			int j=2;
-			for(j=2;j<n/2;j++)
+			for(j=2;j<n;j++)
 			{
 				if(n%j==0)
 				{
