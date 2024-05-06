@@ -2,6 +2,7 @@ package stringPgms;
 
 //import java.util.HashMap;
 import java.util.LinkedHashMap;
+import java.util.Map.Entry;
 
 public class OccuranceOfCharsInAStringUsingHashMap {
 
@@ -19,6 +20,10 @@ public class OccuranceOfCharsInAStringUsingHashMap {
 				hMap.put(s.charAt(i), 1);
 			}
 		}
-		System.out.println(hMap);
+		for (Entry<Character, Integer> m : hMap.entrySet()) {
+			if (m.getValue()>1) {
+				System.out.println(m.getKey()+"  "+m.getValue());
+			}
+		}
 	}
 }

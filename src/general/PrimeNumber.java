@@ -1,16 +1,21 @@
 package general;
 
-
+import java.util.Scanner;
 
 public class PrimeNumber {
 
 	public static void main(String[] args) {
 		
-		for(int i=0;i<=30;i++)
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter the number");
+		int x=sc.nextInt();
+		
+		
+		for(int i=0;i<=x;i++)
 		{
 			int count=0;
 			int n=i;
-			int j=2;
+			int j;
 			for(j=2;j<n;j++)
 			{
 				if(n%j==0)

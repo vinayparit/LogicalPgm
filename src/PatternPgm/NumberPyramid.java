@@ -4,7 +4,7 @@ public class NumberPyramid {
 
 	public static void main(String[] args) {
 /*
-         1         
+        1         
       2   2       
     3   3   3     
   4   4   4   4   
