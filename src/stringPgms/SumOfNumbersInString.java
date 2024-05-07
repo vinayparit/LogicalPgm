@@ -3,7 +3,7 @@ package stringPgms;
 public class SumOfNumbersInString {
 
 	public static void main(String[] args) {
-		String st = "a1b2c3d";
+		String st = "a1b2c3d4";
 		char[] s = st.toCharArray();
 		int sum = 0;
 		for (int i = 0; i < st.length(); i++) {
@@ -15,6 +15,5 @@ public class SumOfNumbersInString {
 
 		}
 		System.out.println(sum);
-
 	}
 }
