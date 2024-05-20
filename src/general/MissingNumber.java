@@ -5,6 +5,7 @@ public class MissingNumber {
 	public static void main(String[] args) {
 		int[] a= {1,3,4,6,9};
 		
+		
 		for(int i=0;i<10;i++)
 		{
 			int count=0;
