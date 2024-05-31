@@ -16,6 +16,7 @@ public class MinimumShortestLenghtInArray {
 			}
 			
 		}
+//		System.out.println(minLenght); 
 		for (int i = 0; i < s.length; i++) {
 			if(s[i].length()==minLenght.length())
 			{

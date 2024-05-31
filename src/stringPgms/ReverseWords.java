@@ -12,7 +12,7 @@ public class ReverseWords {
 			String word = st[i] + " ";
 
 			for (int j = word.length() - 1; j >= 0; j--) {
-				System.out.print(word.charAt(j) + "");
+				System.out.print(word.charAt(j));
 			}
 		}
 		

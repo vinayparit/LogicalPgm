@@ -6,7 +6,7 @@ public class ArrayAddition {
 
 		int[] a1 = { 1, 2, 3 };
 		int[] a2 = { 4, 5, 6, 7, 8 };
-		int maxLength = Math.max(a1.length, a2.length); //Compares the length on arrays
+		int maxLength = Math.max(a1.length, a2.length); //Compares the length of arrays
 		int[] res = new int[maxLength];
 
 		for (int i = 0; i < res.length; i++) {
